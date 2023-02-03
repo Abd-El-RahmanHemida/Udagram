@@ -74,7 +74,7 @@ workflows:
                 - master
           type: approval
           requires:
-            - deploy
+            - build
       - deploy:
           requires:
             - hold
