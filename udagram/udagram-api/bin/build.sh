@@ -1,1 +1,0 @@
-eb init udagram-api --region $AWS_REGION 
