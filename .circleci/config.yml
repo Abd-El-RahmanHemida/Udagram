@@ -46,6 +46,10 @@ jobs:
           name: API Build
           command: |
             npm run api:build
+      - run:
+          name: Set env
+          command: |
+            npm run setenv
   # deploy step will run only after manual approval
   deploy:
     docker:
